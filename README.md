@@ -1,6 +1,4 @@
-[meteor-reactive-fullcalendar 1.0.0](http://fullcalendar.io/) JQuery plugin packaged for Meteor 1.0.
-
-Based on http://fullcalendar.io/ v2.1.1
+Based on http://fullcalendar.io/ v2.1.1 -  JQuery plugin packaged for Meteor 1.0.
 
 ### Instalation ###
 
