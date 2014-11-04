@@ -1,0 +1,3 @@
+[submodule "meteor-reactive-fullcalendar"]
+	path = meteor-reactive-fullcalendar
+	url = https://github.com/gquemart/meteor-reactive-fullcalendar.git
