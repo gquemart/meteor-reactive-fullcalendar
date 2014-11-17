@@ -2,22 +2,22 @@ Based on http://fullcalendar.io/ v2.1.1 -  JQuery plugin packaged for Meteor 1.0
 
 ### Instalation ###
 
-'''bash
+```bash
     meteor add gquemart:meteor-reactive-fullcalendar
-'''
+```
 
 ### Usage ###
 Template:
 
-'''handlebars
+```handlebars
     <template name="myTemplate">
         {{ > ReactiveFullcalendar options=calendarOptions }}
     </template>
-'''
+```
     
 Client JS:
 
-'''javascript
+```javascript
     Template.myTemplate.helpers({
         calendarOptions: {
             // Standard fullcalendar options
@@ -63,7 +63,7 @@ Client JS:
             ]
         },
     });
-'''
+```
 
 ### More details ###
 - Many fullcalendar can be added on the same page by using different id
