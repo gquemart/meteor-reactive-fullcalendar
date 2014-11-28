@@ -2,18 +2,23 @@ Based on http://fullcalendar.io/ v2.1.1 -  JQuery plugin packaged for Meteor 1.0
 
 ### Instalation ###
 
+```bash
     meteor add gquemart:meteor-reactive-fullcalendar
+```
 
 ### Usage ###
 Template:
 
+```handlebars
     <template name="myTemplate">
         {{ > ReactiveFullcalendar options=calendarOptions }}
     </template>
+```
     
 Client JS:
 
-    Template.myTemplate.rendered = function() {
+```javascript
+    Template.myTemplate.helpers({
         calendarOptions: {
             // Standard fullcalendar options
             height: 700,
@@ -56,9 +61,10 @@ Client JS:
                     console.log("user defined autorun function executed!");
                 }
             ]
-        }
-    }
+        },
+    });
+```
 
-More details:
+### More details ###
 - Many fullcalendar can be added on the same page by using different id
 - autoruns need to be an array of functions
